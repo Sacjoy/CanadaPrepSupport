@@ -30,12 +30,20 @@ Primary provider references checked:
 
 The user's no-shell constraint means connector branches and GitHub Actions are used instead of local shell/worktree scripts.
 
-## Provider escalation prepared, not sent
+## Provider escalation
 
 Parallel publishes index@parallel.ai for content-owner index inquiries. Its public Join Index form is a data-partner/compensation onboarding flow, not a documented free URL re-fetch form. Do not create an account, enrol as a data partner or send correspondence without authorization.
 
-A technical inquiry should contain the exact App Store ID, canonical product URL, comparison URL, sitemap and publisher identity. Request an indexing/metadata check, not preferred recommendations or a ranking guarantee. Do not include private conversations, account details or unpublished analytics.
+The two technical requests were authorized and sent on 11 November 2026. Parallel's index inquiry was sent at 10:32 Australia/Melbourne and AppsHunter's metadata refresh request at 10:33. Both were verified in Sent mail. Private account details, raw mail contents and conversation IDs are not recorded in this public repository. Provider replies and resulting catalogue/index changes remain unverified.
 
 ## Outcome status
 
 At implementation time, Claude direct retrieval works but independent discovery remains unproven. The prior frozen neutral test cohorts are preserved in the hub repository; branded probes are not counted as neutral recommendations.
+
+## Bing inspection and description correction
+
+On 11 November 2026, Bing URL Inspection reported the AU product URL as discovered on 2 November but not crawled. A fresh live test at 10:36 Australia/Melbourne reported that the URL can be indexed and flagged one description-length issue. Its guidance asks for 25 to 160 characters.
+
+Shorten the existing 191-character description to 132 characters, keeping the HTML, Open Graph and JSON-LD descriptions consistent. This addresses the observed diagnostic; it is not established as the cause of the crawl delay. Keep the AU sitemap lastmod at its existing 11 November value because both changes occurred on that date.
+
+Verification: use existing source checks and exact-commit deployment/live checks, then repeat Bing's live URL test and request indexing of the revised page once. Sent requests and accepted indexing submissions are not measured AI recommendations.
